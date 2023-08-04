@@ -1,0 +1,19 @@
+p {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    margin-left: 20px;
+}
+
+h4 {
+    margin-left: 20px;
+}
+
+.nav-link {
+    font-size: x-large;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
