@@ -1,11 +1,23 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block container %}
     <div style="background-color: beige">
-    {% include 'home/text.html' %}
+        {% include 'home/text.html' %}
 
     </div>
 
+{% endblock %}
+
+{% block aside %}
+    <div>
+        <img src="{% static 'images/aga_photo.jpg' %}"
+             class="img-fluid"
+             style="height: 380px; width: 300px;">
+        <h3 style="font-family: Arial, sans-serif;
+        font-weight: bold; font-size: xx-large; color: dimgrey">O mnie:</h3>
+    </div>
 {% endblock %}
 
 
