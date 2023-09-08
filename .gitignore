@@ -4,7 +4,7 @@
 **/*.pyc
 
 venv
-db.sqlite3
+identifier.sqlite.website
 
 config/local_settings.py
 
